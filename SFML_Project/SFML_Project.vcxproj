@@ -145,7 +145,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="field.cpp" />
+    <ClCompile Include="figure.cpp" />
+    <ClCompile Include="heads.cpp" />
+    <ClCompile Include="logic.cpp" />
     <ClCompile Include="Tetris.cpp" />
+    <ClCompile Include="view.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="field.h" />
+    <ClInclude Include="figure.h" />
+    <ClInclude Include="heads.h" />
+    <ClInclude Include="logic.h" />
+    <ClInclude Include="view.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
