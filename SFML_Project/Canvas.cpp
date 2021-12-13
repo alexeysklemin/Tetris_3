@@ -1,10 +1,10 @@
 #include <SFML/Graphics.hpp>
 #include <time.h>
-#include <Windows>
+#include <Windows.h>
 #include "Canvas.h"
 using namespace sf;
 
-Canvas::canvas(){
+void Canvas::canvas(){
     
     RenderWindow window(VideoMode(320, 480), "The Game!");
 

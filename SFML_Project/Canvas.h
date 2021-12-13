@@ -1,12 +1,12 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <time.h>
-#include <Windows>
+#include <Windows.h>
 using namespace sf;
 
 class Canvas{
 public:
-    canvas();
+    int canvas();
 };
 #pragma once
 

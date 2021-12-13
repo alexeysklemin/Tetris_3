@@ -1,5 +1,6 @@
 #pragma once
-class figure
-{
+
+class figure{
+
 };
 

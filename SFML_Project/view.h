@@ -1,5 +1,7 @@
 #pragma once
-class view
-{
+#include "view.cpp"
+
+class view{
+	void paint();
 };
 
