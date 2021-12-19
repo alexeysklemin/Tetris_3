@@ -8,5 +8,5 @@ class Canvas{
 public:
     int canvas();
 };
-#pragma once
+
 
